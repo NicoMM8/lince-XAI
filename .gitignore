@@ -1,0 +1,31 @@
+# Entornos Virtuales
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Bases de datos y local
+data/
+neo4j_data/
+redpanda_data/
+*.db
+
+# Frontend
+node_modules/
+dist/
+build/
+.npm/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
